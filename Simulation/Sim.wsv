@@ -2,9 +2,9 @@
 <!DOCTYPE GENESYSV1.00>
 
 <Item Type="WorkspaceData">
-<ClientWnd><T>Array_I64</T><D>1;4;;;AI;7C</D></ClientWnd>
+<ClientWnd><T>Array_I64</T><D>1;4;;;3G;nC</D></ClientWnd>
 <IsOpen><T>Bool</T><D>1</D></IsOpen>
-<Time>2025:120:16:32:25</Time>
+<Time>2025:120:18:43:28</Time>
 <ToolbarSize><T>Int</T><D>25</D></ToolbarSize>
 <Ver><T>Double</T><D>2011.03</D></Ver>
 <Version>1.30</Version>
@@ -14,11 +14,11 @@
 <Text>&lt;Text&gt;&lt;H2&gt;Conversion Report&lt;/H2&gt;The workspace you loaded has been converted to the current version on Thu Apr 21 15:54:06 2022.&lt;H2&gt;Conversion Notes&lt;/H2&gt;The workspace you loaded reported one or more messages about the conversion process, which are listed below.&lt;BR&gt;&lt;UL&gt;&lt;LI&gt;&lt;span style = &quot;background-color: #B4FFB4&quot;&gt;Information&lt;/span&gt;: EnableMultiEnvelopeConverter: Converter has run successfuly.&lt;/LI&gt;&lt;LI&gt;&lt;span style = &quot;background-color: #B4FFB4&quot;&gt;Information&lt;/span&gt;: VersionConverter: Converter has run successfuly.&lt;/LI&gt;&lt;/UL&gt;&lt;/Text&gt;</Text>
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="NotesDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;e{14;mr14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;VftvbUUTk24;QYpGNgXeb24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;qs14;8m14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;r2TgtIAic24;tdgkhNT2W24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;o;f1;m8;m7</D></Window>
+<Window><T>Array_I64</T><D>1;4;b;H1;c6;{5</D></Window>
 <ZOrder><T>Int</T><D>15</D></ZOrder></Item></Item></Item>
 <Item XName="Designs" UserName="Designs" Type="Folder">
 <IsOpen><T>Bool</T><D>1</D></IsOpen>
@@ -66,7 +66,7 @@
 <Item XName="DF1_DPD Extraction_Data" UserName="DF1_DPD Extraction_Data" Type="DataSet">
 <FullPath>Designs\DF1_DPD Extraction_Data</FullPath>
 <Selected><T>Bool</T><D>0</D></Selected>
-<TimeStamp>1746001866</TimeStamp>
+<TimeStamp>1746005020</TimeStamp>
 <Item XName="Eqns" Type="Equation">
 <Item XName="BPMgr" Type="BPMgr">
 <BPLines><T>Empty</T></BPLines>
@@ -80,19 +80,19 @@
 <Item XName="VarBlock" Type="VarBlock">
 <Item XName="LogOutput" Type="Variable">
 <ByAnalysis><T>Bool</T><D>1</D></ByAnalysis>
-<Data>Data Flow Analysis : DF1&#x000D;&#x000A;2025/4/30..16:30&#x000D;&#x000A;Execution time: 9.428 sec&#x000D;&#x000A;</Data></Item></Item></Item>
+<Data>Data Flow Analysis : DF1&#x000D;&#x000A;2025/4/30..17:23&#x000D;&#x000A;Execution time: 8.89 sec&#x000D;&#x000A;</Data></Item></Item></Item>
 <Item XName="Font" Type="Font">
 <Size><T>Double</T><D>125</D></Size></Item>
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DataSetDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;Y224;mq14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;bht6rReSo24;Mj8nuftea24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;ex14;uk14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;HAtQATWUh24;mMoXj{OjU24</D></PVPort>
 <SelVar>S3</SelVar>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
 <Split><T>Double</T><D>0.35124</D></Split>
 <SubSplit><T>Double</T><D>0.2</D></SubSplit>
-<Window><T>Array_I64</T><D>1;4;Z{}}}}}}}}}};A;88;16</D></Window>
+<Window><T>Array_I64</T><D>1;4;w{}}}}}}}}}};7;86;f4</D></Window>
 <ZOrder><T>Int</T><D>16</D></ZOrder></Item></Item></Item>
 <Item XName="DF2" UserName="DF2" Type="Data Flow Analysis">
 <AutoRecalc><T>Bool</T><D>0</D></AutoRecalc>
@@ -137,7 +137,7 @@
 <Item XName="DF2_DPD Validation_Data" UserName="DF2_DPD Validation_Data" Type="DataSet">
 <FullPath>Designs\DF2_DPD Validation_Data</FullPath>
 <Selected><T>Bool</T><D>0</D></Selected>
-<TimeStamp>1746000999</TimeStamp>
+<TimeStamp>1746005031</TimeStamp>
 <Item XName="Eqns" Type="Equation">
 <Item XName="BPMgr" Type="BPMgr">
 <BPLines><T>Empty</T></BPLines>
@@ -151,19 +151,19 @@
 <Item XName="VarBlock" Type="VarBlock">
 <Item XName="LogOutput" Type="Variable">
 <ByAnalysis><T>Bool</T><D>1</D></ByAnalysis>
-<Data>Data Flow Analysis : DF2&#x000D;&#x000A;2025/4/30..16:16&#x000D;&#x000A;Execution time: 9.881 sec&#x000D;&#x000A;</Data></Item></Item></Item>
+<Data>Data Flow Analysis : DF2&#x000D;&#x000A;2025/4/30..17:23&#x000D;&#x000A;Execution time: 9.871 sec&#x000D;&#x000A;</Data></Item></Item></Item>
 <Item XName="Font" Type="Font">
 <Size><T>Double</T><D>125</D></Size></Item>
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DataSetDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;q424;q14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;hO7hwHsiq24;ZbOvX98vZ24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;4}14;ej14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;jOkFpsKvk24;SqCQ7UqTT24</D></PVPort>
 <SelVar>S2</SelVar>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
 <Split><T>Double</T><D>0.35124</D></Split>
 <SubSplit><T>Double</T><D>0.2</D></SubSplit>
-<Window><T>Array_I64</T><D>1;4;wx}}}}}}}}}};p1;e6;U7</D></Window>
+<Window><T>Array_I64</T><D>1;4;xy}}}}}}}}}};O1;05;m5</D></Window>
 <ZOrder><T>Int</T><D>14</D></ZOrder></Item></Item></Item>
 <Item XName="DPD" UserName="DPD" Type="Design">
 <Intent><T>Int</T><D>4</D></Intent>
@@ -451,12 +451,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;Kz14;Cq14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;qSJuzLx9j24;VdKdd145a24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;qr14;uj14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;lDoAPIWib24;hX72F{kjT24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;;;f7;k5</D></Window>
-<ZOrder><T>Int</T><D>5</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;;;n5;Q4</D></Window>
+<ZOrder><T>Int</T><D>1</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <ImageIndex><T>Int</T><D>12</D></ImageIndex>
@@ -691,7 +691,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>4</D></Validate></Item>
 <Item XName="EquationText" Type="PartParam">
-<DataEntry>% Example for DPD Validation&#x000D;&#x000A;% On Three Methods&#x000D;&#x000A;&#x000D;&#x000A;input_vector1 = [real(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input)];&#x000D;&#x000A;&#x000D;&#x000A;data = load(&apos;X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Method\whole_1.mat&apos;);&#x000D;&#x000A;DPD_output_m = sim(data.model,input_vector1);&#x000D;&#x000A;DPD_output_m = double(DPD_output_m);&#x000D;&#x000A;DPD_output = DPD_output_m(1,:) + 1j * DPD_output_m(2,:);&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</DataEntry>
+<DataEntry>% Example for DPD Validation&#x000D;&#x000A;% On Three Methods&#x000D;&#x000A;&#x000D;&#x000A;input_vector1 = [real(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input)];&#x000D;&#x000A;&#x000D;&#x000A;data = load(&apos;X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Method_B\Whole\FNN.mat&apos;);&#x000D;&#x000A;DPD_output_m = sim(data.model,input_vector1);&#x000D;&#x000A;DPD_output_m = double(DPD_output_m);&#x000D;&#x000A;DPD_output = DPD_output_m(1,:) + 1j * DPD_output_m(2,:);&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</DataEntry>
 <Description>Equation Text to Parse, edited in the equation set</Description>
 <DocSymbol />
 <IsSettable><T>Bool</T><D>0</D></IsSettable>
@@ -795,7 +795,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>4</D></Validate></Item>
 <Item XName="EquationText" Type="PartParam">
-<DataEntry>% Example for DPD Validation&#x000D;&#x000A;% On Three Methods&#x000D;&#x000A;&#x000D;&#x000A;input_vector1 = [real(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input)];&#x000D;&#x000A;&#x000D;&#x000A;data = load(&apos;X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Method\whole_1.mat&apos;);&#x000D;&#x000A;DPD_output_m = sim(data.model,input_vector1);&#x000D;&#x000A;DPD_output_m = double(DPD_output_m);&#x000D;&#x000A;DPD_output = DPD_output_m(1,:) + 1j * DPD_output_m(2,:);&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</DataEntry>
+<DataEntry>% Example for DPD Validation&#x000D;&#x000A;% On Three Methods&#x000D;&#x000A;&#x000D;&#x000A;input_vector1 = [real(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;real(DPD_input);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d2);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input_d1);&#x000D;&#x000A;&#x0009;&#x0009;&#x0009;&#x0009;imag(DPD_input)];&#x000D;&#x000A;&#x000D;&#x000A;data = load(&apos;X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Method_B\Whole\FNN.mat&apos;);&#x000D;&#x000A;DPD_output_m = sim(data.model,input_vector1);&#x000D;&#x000A;DPD_output_m = double(DPD_output_m);&#x000D;&#x000A;DPD_output = DPD_output_m(1,:) + 1j * DPD_output_m(2,:);&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</DataEntry>
 <Description>Equation Text to Parse, edited in the equation set</Description>
 <DocSymbol />
 <IsSettable><T>Bool</T><D>0</D></IsSettable>
@@ -1440,8 +1440,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;mx14;Rn14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;lwhURJo0k2C;nVD3a1gk24;piwCuz95h24;ym{UOKXe034</D></PVPort></Item>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Gq14;Oe14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;mjjifzu}03C;eaVAwVd4Q24;uwsn0EerY24;w{{UmckK034</D></PVPort></Item>
 <Item XName="Font" Type="Font">
 <Italic><T>Int</T><D>0</D></Italic>
 <Name>Arial</Name>
@@ -1846,7 +1846,7 @@
 <Data><T>Double</T><D>0.2794</D></Data></Item></Item></Item>
 <Item XName="DPD Extraction" UserName="DPD Extraction" Type="Design">
 <Intent><T>Int</T><D>1</D></Intent>
-<Selected><T>Bool</T><D>1</D></Selected>
+<Selected><T>Bool</T><D>0</D></Selected>
 <Item XName="Connectivity" Type="DesignTopology">
 <Item XName="N1" Type="Nexus">
 <Item XName="C1" Type="ConnEndpoint">
@@ -2696,12 +2696,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;6I24;6824</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;Ny0nd4o}134;qw1lU7kzt24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;uc14;uX14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;8kSavw8mM24;la56XusnH24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
-<ShowCmd><T>Int</T><D>3</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;;;D4;o3</D></Window>
-<ZOrder><T>Int</T><D>0</D></ZOrder>
+<ShowCmd><T>Int</T><D>1</D></ShowCmd>
+<Window><T>Array_I64</T><D>1;4;;;B3;w2</D></Window>
+<ZOrder><T>Int</T><D>2</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <PageNo><T>Int</T><D>0</D></PageNo></Item>
@@ -3360,7 +3360,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA2_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA2_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -3641,7 +3641,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA2_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA2_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -3939,7 +3939,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA3_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA3_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -4220,7 +4220,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA3_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA3_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -4518,7 +4518,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA3_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA3_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -4799,7 +4799,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA3_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA3_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -5606,7 +5606,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -5887,7 +5887,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -6185,7 +6185,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_input_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_input_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -6466,7 +6466,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_input_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_input_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -6764,7 +6764,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_input_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_input_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -7045,7 +7045,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_input_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_input_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -7343,7 +7343,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -7624,7 +7624,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\Sys_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\Sys_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -7922,7 +7922,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA1_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA1_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -8203,7 +8203,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA1_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA1_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -8501,7 +8501,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA1_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA1_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -8782,7 +8782,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA1_output_i.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA1_output_i.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -9080,7 +9080,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA2_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA2_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -9361,7 +9361,7 @@
 <Show><T>Bool</T><D>0</D></Show>
 <Validate><T>Int</T><D>16</D></Validate></Item>
 <Item XName="DataFileName" Type="PartParam">
-<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Introduction\Data\PA2_output_q.txt</DataEntry>
+<DataEntry>X:\2-Github\DPD_of_a_3-ways_PA_with_Memory_Effects\Simulation\Data\PA2_output_q.txt</DataEntry>
 <Description>Data file name</Description>
 <DocSymbol />
 <HideCondition>SinkTarget == 0 || (ContinuousMode==1 &amp;&amp; DisableDataCollect==1)</HideCondition>
@@ -9760,7 +9760,7 @@
 <BorderColor><T>Int</T><D>0</D></BorderColor>
 <BorderStyle><T>Int</T><D>0</D></BorderStyle>
 <BorderWeight><T>Int</T><D>1</D></BorderWeight>
-<Coords><T>Array_Dbl64</T><D>1;6;Gl24;m}q24;WKi24;m}q24;WKi24;YJ24</D></Coords>
+<Coords><T>Array_Dbl64</T><D>1;6;Gl24;Goz24;WKi24;Goz24;WKi24;YJ24</D></Coords>
 <Filled><T>Bool</T><D>0</D></Filled>
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
@@ -9791,7 +9791,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>5375.001096167212</D></PosX>
-<PosY><T>Double</T><D>5250.000013717789</D></PosY>
+<PosY><T>Double</T><D>7500.00001371779</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -9877,7 +9877,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>14500.00109092197</D></PosX>
-<PosY><T>Double</T><D>-1375.000021528432</D></PosY>
+<PosY><T>Double</T><D>874.9999784715701</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -9903,7 +9903,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>12250.00109092199</D></PosX>
-<PosY><T>Double</T><D>-1250.000021528469</D></PosY>
+<PosY><T>Double</T><D>999.9999784715328</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -9941,7 +9941,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>5375.001096167212</D></PosX>
-<PosY><T>Double</T><D>5250.000013717789</D></PosY>
+<PosY><T>Double</T><D>7500.00001371779</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -9954,7 +9954,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>14500.00101161873</D></PosX>
-<PosY><T>Double</T><D>375.0000314150311</D></PosY>
+<PosY><T>Double</T><D>2625.000031415033</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -9967,7 +9967,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>5375.001016863971</D></PosX>
-<PosY><T>Double</T><D>7000.000066661252</D></PosY>
+<PosY><T>Double</T><D>9250.000066661254</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -9980,7 +9980,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>12250.00101161874</D></PosX>
-<PosY><T>Double</T><D>500.0000314149938</D></PosY>
+<PosY><T>Double</T><D>2750.000031414996</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -9993,7 +9993,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>5375.001016863971</D></PosX>
-<PosY><T>Double</T><D>7000.000066661252</D></PosY>
+<PosY><T>Double</T><D>9250.000066661254</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -10019,7 +10019,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>14500.00097925195</D></PosX>
-<PosY><T>Double</T><D>2124.999879443534</D></PosY>
+<PosY><T>Double</T><D>4374.999879443536</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -10032,7 +10032,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>5375.000984497192</D></PosX>
-<PosY><T>Double</T><D>8749.999914689757</D></PosY>
+<PosY><T>Double</T><D>10999.99991468976</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -10045,7 +10045,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>12250.00097925196</D></PosX>
-<PosY><T>Double</T><D>2249.999879443496</D></PosY>
+<PosY><T>Double</T><D>4499.999879443498</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -10058,7 +10058,7 @@
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
 <PosX><T>Double</T><D>5375.000984497192</D></PosX>
-<PosY><T>Double</T><D>8749.999914689757</D></PosY>
+<PosY><T>Double</T><D>10999.99991468976</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
@@ -10102,7 +10102,7 @@
 <BorderColor><T>Int</T><D>0</D></BorderColor>
 <BorderStyle><T>Int</T><D>0</D></BorderStyle>
 <BorderWeight><T>Int</T><D>1</D></BorderWeight>
-<Coords><T>Array_Dbl64</T><D>1;6;Gl24;JT24;WHk24;JT24;WHk24;bH2C</D></Coords>
+<Coords><T>Array_Dbl64</T><D>1;6;Gl24;G7m24;WHk24;G7m24;WHk24;bH2C</D></Coords>
 <Filled><T>Bool</T><D>0</D></Filled>
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
@@ -10115,7 +10115,7 @@
 <BorderColor><T>Int</T><D>0</D></BorderColor>
 <BorderStyle><T>Int</T><D>0</D></BorderStyle>
 <BorderWeight><T>Int</T><D>1</D></BorderWeight>
-<Coords><T>Array_Dbl64</T><D>1;6;Gl24;WKi24;WNg24;WKi24;WNg24;</D></Coords>
+<Coords><T>Array_Dbl64</T><D>1;6;Gl24;mys24;WNg24;mys24;WNg24;</D></Coords>
 <Filled><T>Bool</T><D>0</D></Filled>
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
@@ -10202,8 +10202,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;jH24;k624</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;R8LAO6QQn2C;Uk4gOUwne2C;G2Rx9H2o734;L}RrSgNJz24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;mZ14;mO14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;sfnN{pyB03C;IlJwfNrEm2C;GhYiN0snA34;WlOeLYZp234</D></PVPort>
 <Show><T>Bool</T><D>0</D></Show></Item>
 <Item XName="Display1" Type="SchematicDisp">
 <DVport><T>Array_Dbl64</T><D>1;4;;;MA24;p14</D></DVport>
@@ -10356,7 +10356,7 @@
 <CenterY><T>Double</T><D>0</D></CenterY>
 <Designator>C3</Designator>
 <PosX><T>Double</T><D>4000.000100054331</D></PosX>
-<PosY><T>Double</T><D>1874.99997847157</D></PosY>
+<PosY><T>Double</T><D>4124.999978471572</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_CxToRect</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
@@ -10384,7 +10384,7 @@
 <Symbol>AutoSymDF</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
 <Description>Subnetwork8 {Power Divider}</Description>
-<PosX><T>Double</T><D>1125</D></PosX>
+<PosX><T>Double</T><D>1058.7890625</D></PosX>
 <PosY><T>Double</T><D>1045</D></PosY>
 <Visible><T>Bool</T><D>1</D></Visible>
 <ZOrder><T>Int</T><D>1</D></ZOrder>
@@ -10449,8 +10449,8 @@
 <Description>Data Sink</Description>
 <Designator>S7</Designator>
 <PosX><T>Double</T><D>6374.001058957263</D></PosX>
-<PosY><T>Double</T><D>1500.000013717811</D></PosY>
-<Selected><T>Bool</T><D>1</D></Selected>
+<PosY><T>Double</T><D>3750.000013717813</D></PosY>
+<Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_Sink</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
 <Description>S7 {Sink@Data Flow Models}&#x000A;StartStopOption=Auto</Description>
@@ -10481,7 +10481,7 @@
 <Description>Data Sink</Description>
 <Designator>S8</Designator>
 <PosX><T>Double</T><D>6374.001089474812</D></PosX>
-<PosY><T>Double</T><D>2375.000013717811</D></PosY>
+<PosY><T>Double</T><D>4625.000013717812</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_Sink</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
@@ -10512,7 +10512,7 @@
 <CenterY><T>Double</T><D>0</D></CenterY>
 <Designator>C4</Designator>
 <PosX><T>Double</T><D>4000.000020751089</D></PosX>
-<PosY><T>Double</T><D>3625.000031415033</D></PosY>
+<PosY><T>Double</T><D>5875.000031415035</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_CxToRect</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
@@ -10536,7 +10536,7 @@
 <Description>Data Sink</Description>
 <Designator>S9</Designator>
 <PosX><T>Double</T><D>6374.000979654022</D></PosX>
-<PosY><T>Double</T><D>3250.000066661274</D></PosY>
+<PosY><T>Double</T><D>5500.000066661276</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_Sink</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
@@ -10591,7 +10591,7 @@
 <Description>Data Sink</Description>
 <Designator>S10</Designator>
 <PosX><T>Double</T><D>6374.001010171571</D></PosX>
-<PosY><T>Double</T><D>4125.000066661274</D></PosY>
+<PosY><T>Double</T><D>6375.000066661276</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_Sink</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
@@ -10622,7 +10622,7 @@
 <CenterY><T>Double</T><D>0</D></CenterY>
 <Designator>C5</Designator>
 <PosX><T>Double</T><D>3999.99998838431</D></PosX>
-<PosY><T>Double</T><D>5374.999879443536</D></PosY>
+<PosY><T>Double</T><D>7624.999879443538</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_CxToRect</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
@@ -10646,8 +10646,8 @@
 <Description>Data Sink</Description>
 <Designator>S11</Designator>
 <PosX><T>Double</T><D>6374.000947287243</D></PosX>
-<PosY><T>Double</T><D>4999.999914689777</D></PosY>
-<Selected><T>Bool</T><D>0</D></Selected>
+<PosY><T>Double</T><D>7249.999914689779</D></PosY>
+<Selected><T>Bool</T><D>1</D></Selected>
 <Symbol>SYM_Sink</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
 <Description>S11 {Sink@Data Flow Models}&#x000A;StartStopOption=Auto</Description>
@@ -10678,7 +10678,7 @@
 <Description>Data Sink</Description>
 <Designator>S12</Designator>
 <PosX><T>Double</T><D>6374.000977804792</D></PosX>
-<PosY><T>Double</T><D>5874.999914689777</D></PosY>
+<PosY><T>Double</T><D>8124.999914689779</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Symbol>SYM_Sink</Symbol>
 <Item XName="DrawParams" Type="DrawGroup">
@@ -10848,7 +10848,7 @@
 <ZOrder><T>Int</T><D>46</D></ZOrder>
 <Item XName="DrawParams" Type="DrawGroup">
 <Description>Subnetwork1 {Signal}</Description>
-<PosX><T>Double</T><D>1404</D></PosX>
+<PosX><T>Double</T><D>1446.4443359375</D></PosX>
 <PosY><T>Double</T><D>1045</D></PosY>
 <Visible><T>Bool</T><D>1</D></Visible>
 <ZOrder><T>Int</T><D>1</D></ZOrder>
@@ -11289,12 +11289,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;em14;me14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;Q2W{wNIYW24;g1qlohVdO24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Oe14;mX14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;mzxJdxdFO24;7E8ITevfH24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;D4;;h8;n3</D></Window>
-<ZOrder><T>Int</T><D>2</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;B3;;Y6;v2</D></Window>
+<ZOrder><T>Int</T><D>3</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <PageNo><T>Int</T><D>0</D></PageNo></Item>
@@ -12763,8 +12763,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;8k14;GZ14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;sHqsIgnG134;KeMQE22Xj24;MMxvbvXXD34;qFzll0RS{24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Gb14;WO14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;WVfN13k7v14;RPHsEOF8O24;4Vayz9S9D34;c11z0WSN334</D></PVPort>
 <Show><T>Bool</T><D>0</D></Show></Item>
 <Item XName="Font" Type="Font">
 <Size><T>Double</T><D>69.44444444444444</D></Size></Item>
@@ -13150,21 +13150,21 @@
 <Size><T>Double</T><D>12</D></Size>
 <Weight><T>Int</T><D>400</D></Weight></Item></Item>
 <Item XName="Display0" Type="GraphDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;e624;4s14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;N31BkEc4034;}}}}}}}Fl24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;w024;Om14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;XYvnhBaB034;}}}}}}}Fl24</D></PVPort>
 <PanX><T>Double</T><D>0</D></PanX>
 <PanY><T>Double</T><D>0</D></PanY>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;i;11;KC;D7</D></Window>
-<ZOrder><T>Int</T><D>3</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;X;o;I9;Z5</D></Window>
+<ZOrder><T>Int</T><D>9</D></ZOrder>
 <Zoom><T>Double</T><D>1</D></Zoom></Item>
 <Item XName="Legend" Type="Legend">
 <Color><T>Int</T><D>1073741824</D></Color>
 <Height><T>Double</T><D>233.9974021911621</D></Height>
 <PosX><T>Double</T><D>0</D></PosX>
 <PosY><T>Double</T><D>3766.002597808837</D></PosY>
-<Width><T>Double</T><D>8228.778752811644</D></Width>
+<Width><T>Double</T><D>8284.522820424581</D></Width>
 <ZOrder><T>Int</T><D>8000</D></ZOrder>
 <Item XName="Font" Type="Font">
 <Name>Arial</Name>
@@ -13181,7 +13181,7 @@
 <Weight><T>Int</T><D>400</D></Weight></Item>
 <Item XName="Marker_A" Type="Marker">
 <Indep><T>Double</T><D>0.2138431316755021</D></Indep>
-<Index><T>Int</T><D>7008</D></Index>
+<Index><T>Int</T><D>7000</D></Index>
 <MarkAll><T>Bool</T><D>1</D></MarkAll>
 <PosX><T>Double</T><D>0</D></PosX>
 <PosY><T>Double</T><D>0</D></PosY>
@@ -13203,7 +13203,7 @@
 <Color><T>Int</T><D>16774124</D></Color>
 <Filled><T>Bool</T><D>1</D></Filled>
 <Justification><T>Int</T><D>8</D></Justification>
-<PosX><T>Double</T><D>2276.481492564266</D></PosX>
+<PosX><T>Double</T><D>2288.401978554947</D></PosX>
 <PosY><T>Double</T><D>2575.719390122193</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Text>0.214 , 0.211 </Text>
@@ -13220,7 +13220,7 @@
 <Selected><T>Bool</T><D>0</D></Selected></Item></Item></Item>
 <Item XName="Marker_B" Type="Marker">
 <Indep><T>Double</T><D>0.2907576677492024</D></Indep>
-<Index><T>Int</T><D>1349</D></Index>
+<Index><T>Int</T><D>1344</D></Index>
 <MarkAll><T>Bool</T><D>1</D></MarkAll>
 <PosX><T>Double</T><D>0</D></PosX>
 <PosY><T>Double</T><D>0</D></PosY>
@@ -13242,7 +13242,7 @@
 <Color><T>Int</T><D>16774124</D></Color>
 <Filled><T>Bool</T><D>1</D></Filled>
 <Justification><T>Int</T><D>8</D></Justification>
-<PosX><T>Double</T><D>2852.142898498042</D></PosX>
+<PosX><T>Double</T><D>2868.350913588034</D></PosX>
 <PosY><T>Double</T><D>2365.857226481513</D></PosY>
 <Selected><T>Bool</T><D>0</D></Selected>
 <Text>0.291 , 0.284 </Text>
@@ -13289,7 +13289,7 @@
 <Size><T>Double</T><D>125</D></Size></Item>
 <Item XName="FunctionBlock" Type="FunctionBlock" /></Item></Item></Item>
 <Item XName="Width" Type="Param">
-<Data><T>Double</T><D>0.2090109803214158</D></Data></Item></Item>
+<Data><T>Double</T><D>0.2104268796387844</D></Data></Item></Item>
 <Item XName="Graph2" UserName="Graph2" Type="Rectangular Graph">
 <AaBackgnd><T>Bool</T><D>0</D></AaBackgnd>
 <AaTraces><T>Bool</T><D>1</D></AaTraces>
@@ -13402,21 +13402,21 @@
 <Size><T>Double</T><D>12</D></Size>
 <Weight><T>Int</T><D>400</D></Weight></Item></Item>
 <Item XName="Display0" Type="GraphDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;g624;8s14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;vtmE1y63034;}}}}}}}Fl24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;y024;Rm14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;hKGuGEY9034;}}}}}}}Fl24</D></PVPort>
 <PanX><T>Double</T><D>0</D></PanX>
 <PanY><T>Double</T><D>0</D></PanY>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;S1;32;4D;G8</D></Window>
-<ZOrder><T>Int</T><D>4</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;41;b1;s9;N6</D></Window>
+<ZOrder><T>Int</T><D>10</D></ZOrder>
 <Zoom><T>Double</T><D>1</D></Zoom></Item>
 <Item XName="Legend" Type="Legend">
 <Color><T>Int</T><D>1073741824</D></Color>
 <Height><T>Double</T><D>233.9974021911621</D></Height>
 <PosX><T>Double</T><D>0</D></PosX>
 <PosY><T>Double</T><D>3766.002597808837</D></PosY>
-<Width><T>Double</T><D>8216.867225057433</D></Width>
+<Width><T>Double</T><D>8268.277858855747</D></Width>
 <ZOrder><T>Int</T><D>8000</D></ZOrder>
 <Item XName="Font" Type="Font">
 <Name>Arial</Name>
@@ -13461,41 +13461,41 @@
 <Size><T>Double</T><D>125</D></Size></Item>
 <Item XName="FunctionBlock" Type="FunctionBlock" /></Item></Item></Item>
 <Item XName="Width" Type="Param">
-<Data><T>Double</T><D>0.2087084275164588</D></Data></Item></Item>
+<Data><T>Double</T><D>0.210014257614936</D></Data></Item></Item>
 <Item XName="NMSE" UserName="NMSE" Type="Equation">
-<Selected><T>Bool</T><D>0</D></Selected>
+<Selected><T>Bool</T><D>1</D></Selected>
 <Text>y1 = getvariable(&apos;DF1_DPD Extraction_Data&apos;, &apos;S2&apos;);&#x000D;&#x000A;x1 = getvariable(&apos;DF1_DPD Extraction_Data&apos;, &apos;S1&apos;);&#x000D;&#x000A;x = x1 / max(abs(x1));&#x000D;&#x000A;y = y1 / max(abs(y1));&#x000D;&#x000A;NMSE_withoutDPD = 10 * log10(sum(abs(y - x).^2) ./ sum(abs(x).^2));&#x000D;&#x000A;&#x000D;&#x000A;y1 = getvariable(&apos;DF2_DPD Validation_Data&apos;, &apos;S2&apos;);&#x000D;&#x000A;x1 = getvariable(&apos;DF2_DPD Validation_Data&apos;, &apos;S1&apos;);&#x000D;&#x000A;x = x1 / max(abs(x1));&#x000D;&#x000A;y = y1 / max(abs(y1));&#x000D;&#x000A;NMSE_withDPD = 10 * log10(sum(abs(y - x).^2) ./ sum(abs(x).^2));</Text>
 <Item XName="BPMgr" Type="BPMgr">
 <BPLines><T>Empty</T></BPLines>
 <BPStates><T>Empty</T></BPStates></Item>
 <Item XName="EqnBlock" Type="EqnBlock">
 <Lang><T>Int</T><D>1</D></Lang>
-<UsingContext>DF2_DPD Validation_Data;DF1_DPD Extraction_Data;</UsingContext></Item>
+<UsingContext>DF1_DPD Extraction_Data;DF2_DPD Validation_Data;</UsingContext></Item>
 <Item XName="Font" Type="Font">
 <Name>Courier New</Name>
 <Size><T>Double</T><D>125</D></Size></Item>
 <Item XName="FunctionBlock" Type="FunctionBlock" />
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="EquationDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;6924;8}14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;vliEz7Ozu24;14j9rUJzk24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;{F24;Q924</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;oCSuEx0p}24;V8cm6GHHv24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
-<ShowCmd><T>Int</T><D>1</D></ShowCmd>
+<ShowCmd><T>Int</T><D>3</D></ShowCmd>
 <Split><T>Double</T><D>0.3</D></Split>
 <Split2><T>Double</T><D>0.3</D></Split2>
-<Window><T>Array_I64</T><D>1;4;R2;R2;JF;vA</D></Window>
-<ZOrder><T>Int</T><D>1</D></ZOrder></Item></Item>
+<Window><T>Array_I64</T><D>1;4;r1;u1;YB;P8</D></Window>
+<ZOrder><T>Int</T><D>0</D></ZOrder></Item></Item>
 <Item XName="VarBlock" Type="VarBlock" /></Item>
 <Item XName="Note" UserName="Note" Type="Notes">
 <Selected><T>Bool</T><D>0</D></Selected>
 <Text>&lt;P class=MsoTitle style=&quot;BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: windowtext 0.75pt solid; PADDING-BOTTOM: 1pt; PADDING-TOP: 0in; PADDING-LEFT: 0in; BORDER-LEFT: medium none; MARGIN: 0in 0in 0pt; PADDING-RIGHT: 0in&quot; align=center&gt;&lt;STRONG&gt;&lt;FONT size=5 face=Arial&gt;Final Lab&amp;nbsp;Template&lt;/FONT&gt;&lt;/STRONG&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P class=MsoNormal style=&quot;TEXT-ALIGN: center; MARGIN: 0in 0in 0pt&quot; align=center&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt&quot;&gt;&lt;/SPAN&gt;&lt;FONT face=Arial&gt;&amp;nbsp;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;This template is a simple example of a Data Flow workspace that can be used for DPD Extraction and validation.&lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;The &quot;DPD Extraction&quot;&amp;nbsp;schematic is used to obtain input and output&amp;nbsp;signals of PA, and stores them&amp;nbsp;in files. &lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT color=#404040 size=2&gt;The&amp;nbsp;files store the signals&amp;nbsp;can be used in Matlab to extract the DPD models. Of course, you can also extract models&amp;nbsp;in SystemVue, as&amp;nbsp;we did in the previous Lab, which&amp;nbsp;are suitable for some simpler methods ,such as MP model.&lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;The &quot;DPD Validation&quot;&amp;nbsp;schematic is used to validate the DPD performance. &lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;In Matlab script of&amp;nbsp; &quot;DPD Validation&quot;&amp;nbsp;schematic , three methods are preset, among which &lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT color=#404040&gt;&lt;FONT size=2&gt;Method = 1 corresponds to &lt;/FONT&gt;&lt;FONT size=2&gt;FeedForwardNet, &lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT color=#404040 size=2&gt;Method = 2 corresponds to Regression &lt;FONT size=2&gt;Learner App&lt;/FONT&gt;, &lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT color=#404040 size=2&gt;Method = 3&amp;nbsp;corresponds to Deep Network Designer. &lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;More details are in &lt;FONT color=#ff0000&gt;Final_Lab_example.m&lt;/FONT&gt; and &lt;FONT color=#ff0000&gt;Supplementary Information for Final Lab.pdf&lt;/FONT&gt;.&lt;/FONT&gt;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;&#x000D;&#x000A;&lt;P&gt;&lt;FONT size=2&gt;Of course, you can use your &lt;FONT color=#ff0000&gt;own method&lt;/FONT&gt; by &lt;FONT color=#ff0000&gt;r&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT size=2&gt;&lt;FONT color=#ff0000&gt;ewriting codes&lt;/FONT&gt;.&lt;/FONT&gt;&lt;/P&gt;&lt;/FONT&gt;</Text>
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="NotesDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;W024;qr14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;nhYAt7LQm24;lDoAPIWib24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;au14;Gm14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;j}t1jpZSe24;W{dYldQAW24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;;N;a8;V6</D></Window>
+<Window><T>Array_I64</T><D>1;4;;H;T6;05</D></Window>
 <ZOrder><T>Int</T><D>13</D></ZOrder></Item></Item></Item>
 <Item XName="PA_1" UserName="PA_1" Type="Design">
 <Intent><T>Int</T><D>4</D></Intent>
@@ -13785,11 +13785,11 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;Kz14;w14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;qSJuzLx9j24;aPtOC4tf24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;qr14;Rp14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;lDoAPIWib24;iValGXKLZ24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;;53;f7;GA</D></Window>
+<Window><T>Array_I64</T><D>1;4;;O2;n5;w7</D></Window>
 <ZOrder><T>Int</T><D>7</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
@@ -14616,7 +14616,7 @@
 <BorderColor><T>Int</T><D>0</D></BorderColor>
 <BorderStyle><T>Int</T><D>0</D></BorderStyle>
 <BorderWeight><T>Int</T><D>1</D></BorderWeight>
-<Coords><T>Array_Dbl64</T><D>1;6;GZo24;W20JT2C;Ts24;W20JT2C;Ts24;W30JT2C</D></Coords>
+<Coords><T>Array_Dbl64</T><D>1;4;GZo24;W20JT2C;Ts24;W30JT2C</D></Coords>
 <Filled><T>Bool</T><D>0</D></Filled>
 <IsABus><T>Bool</T><D>0</D></IsABus>
 <NetLabel Attrib="13" />
@@ -14678,8 +14678,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>2</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;mx14;Gt14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;qCisZtFcA2C;1mw7QtMfs2C;mV77bGNN034;RH3JIorFU24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Gq14;im14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;qCisZtFcA2C;1mw7QtMfs2C;mV77bGNN034;ass7aEpGR24</D></PVPort>
 <Show><T>Bool</T><D>0</D></Show></Item>
 <Item XName="Font" Type="Font">
 <Size><T>Double</T><D>90.90909090909091</D></Size></Item>
@@ -15276,12 +15276,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;Ky14;uk14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;mceOVLHAi24;mMoXj{OjU24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;4r14;ec14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;x52J2omya24;t0XynQEWM24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;O1;z1;n8;V6</D></Window>
-<ZOrder><T>Int</T><D>11</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;21;W1;d6;05</D></Window>
+<ZOrder><T>Int</T><D>6</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <ImageIndex><T>Int</T><D>12</D></ImageIndex>
@@ -16207,8 +16207,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>2</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;mw14;Of14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;ZQN9gUBsZ2C;{s2C;esLYAtIu234;{IaOasbM1C</D></PVPort></Item>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Wp14;8X14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;ZQN9gUBsZ2C;{s2C;esLYAtIu234;ctjwx}F02C</D></PVPort></Item>
 <Item XName="Font" Type="Font">
 <Italic><T>Int</T><D>0</D></Italic>
 <Name>Arial</Name>
@@ -16787,12 +16787,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;M124;eq14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;ZqGvGa2Gn24;jMBzqPwWa24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;qv14;Wk14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;3YT9JK8hf24;rIw5YEXLU24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;;;}8;r5</D></Window>
-<ZOrder><T>Int</T><D>10</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;;;n6;V4</D></Window>
+<ZOrder><T>Int</T><D>4</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <ImageIndex><T>Int</T><D>12</D></ImageIndex>
@@ -17694,8 +17694,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>2</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;a024;un14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;ZQN9wTBsZ2C;{s2C;esLYMtIu234;GmA{ce26624</D></PVPort></Item>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Gu14;f14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;ZQN9wTBsZ2C;{s2C;esLYMtIu234;eFD1DVmv14</D></PVPort></Item>
 <Item XName="Font" Type="Font">
 <Italic><T>Int</T><D>0</D></Italic>
 <Name>Arial</Name>
@@ -18270,12 +18270,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;m124;s14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;7E8ITevfn24;jFkuUARub24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Ww14;Om14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;Y{E7eCvMg24;9LbMptNIW24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;B;I;N9;T6</D></Window>
-<ZOrder><T>Int</T><D>9</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;8;D;47;{4</D></Window>
+<ZOrder><T>Int</T><D>5</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <ImageIndex><T>Int</T><D>12</D></ImageIndex>
@@ -19177,8 +19177,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>2</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;{024;Gp14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;ZQN9wTBsZ2C;{s2C;esLYMtIu234;axhYIYuJG24</D></PVPort></Item>
+<DVport><T>Array_Dbl64</T><D>1;4;;;yu14;Gh14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;ZQN9wTBsZ2C;{s2C;esLYMtIu234;G2x2Zkgg824</D></PVPort></Item>
 <Item XName="Font" Type="Font">
 <Italic><T>Int</T><D>0</D></Italic>
 <Name>Arial</Name>
@@ -19591,12 +19591,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;iy14;p14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;fgWqg59Yi24;UmjP39UvY24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Kr14;8i14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;Dpyw9IhCb24;oaigPTL{S24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;i;T1;B8;u6</D></Window>
-<ZOrder><T>Int</T><D>6</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;X;71;A6;J5</D></Window>
+<ZOrder><T>Int</T><D>8</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <ImageIndex><T>Int</T><D>12</D></ImageIndex>
@@ -20267,8 +20267,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;8x14;Gm14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;SZHmRslB634;G7R1qm4sa1C;HvpwLSxhE34;G1yuJVf4Z24</D></PVPort></Item>
+<DVport><T>Array_Dbl64</T><D>1;4;;;mp14;ec14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;SZHmRslB634;G7R1qm4sa1C;HvpwLSxhE34;tcVSuXQBY24</D></PVPort></Item>
 <Item XName="Font" Type="Font">
 <Italic><T>Int</T><D>0</D></Italic>
 <Name>Arial</Name>
@@ -20598,12 +20598,12 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;Ry14;qo14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;PzbCZbEIi24;XknhzGYjY24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;8r14;uh14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;Gn0D4Ql0b24;Xtn2IzQkS24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;81;T1;Z8;r6</D></Window>
-<ZOrder><T>Int</T><D>8</D></ZOrder>
+<Window><T>Array_I64</T><D>1;4;s;71;R6;H5</D></Window>
+<ZOrder><T>Int</T><D>11</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
 <ImageIndex><T>Int</T><D>12</D></ImageIndex>
@@ -21206,8 +21206,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>1</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;uw14;4m14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;Jnu9{aSGb2C;yX4{8Yni24;e84SyXpHS24;SxZ9ntAqu24</D></PVPort></Item>
+<DVport><T>Array_Dbl64</T><D>1;4;;;ap14;Oc14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;Jnu9{aSGb2C;yX4{8Yni24;e84SyXpHS24;{EuoKoNNu24</D></PVPort></Item>
 <Item XName="Font" Type="Font">
 <Italic><T>Int</T><D>0</D></Italic>
 <Name>Arial</Name>
@@ -21815,11 +21815,11 @@
 <Item XName="Page" Type="PageMgr">
 <Item XName="Display0" Type="DesignDisp">
 <CurTab>Schematic</CurTab>
-<DVport><T>Array_Dbl64</T><D>1;4;;;R}14;Rw14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;;;cRch{cCHl24;FJGDcawIg24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;Ot14;qp14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;;;h8Hq8xzFd24;bZRBRHCjZ24</D></PVPort>
 <Show><T>Bool</T><D>1</D></Show>
 <ShowCmd><T>Int</T><D>1</D></ShowCmd>
-<Window><T>Array_I64</T><D>1;4;R;b1;d8;t8</D></Window>
+<Window><T>Array_I64</T><D>1;4;L;D1;V6;r6</D></Window>
 <ZOrder><T>Int</T><D>12</D></ZOrder>
 <Item XName="TabInfo" Type="SerItem">
 <Item XName="Equations" Type="TabInfo">
@@ -27169,8 +27169,8 @@
 <eLeft><T>Int</T><D>1</D></eLeft>
 <eRight><T>Int</T><D>2</D></eRight></Item>
 <Item XName="Display0" Type="SchematicDisp">
-<DVport><T>Array_Dbl64</T><D>1;4;;;uz14;it14</D></DVport>
-<PVPort><T>Array_Dbl64</T><D>1;4;mY9QMU4Qm24;cOlSxq3CI2C;WppNSn4dD34;W2NBwkZPz24</D></PVPort>
+<DVport><T>Array_Dbl64</T><D>1;4;;;qr14;4n14</D></DVport>
+<PVPort><T>Array_Dbl64</T><D>1;4;mY9QMU4Qm24;cOlSxq3CI2C;WppNSn4dD34;ydWSqkNyy24</D></PVPort>
 <Show><T>Bool</T><D>0</D></Show></Item>
 <Item XName="Font" Type="Font">
 <Size><T>Double</T><D>90.90909090909091</D></Size></Item>
