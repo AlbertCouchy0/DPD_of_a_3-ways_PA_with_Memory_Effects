@@ -18,7 +18,7 @@ function model=Train_Whole(M,dim,input,output)
 % ];
 
 % layers = [
-%     sequenceInputLayer(2*(M+1), 'Name', 'input')  % 输入形状 [8, N]
+%     sequenceInputLayer(2*(M+1), 'Name', 'input')  % 输入形状 [2*(M+1), N]
 %     convolution1dLayer(3, 64, 'Padding', 'same', 'Name', 'conv1')  % 核大小3，64个滤波器
 %     batchNormalizationLayer('Name', 'bn1')
 %     reluLayer('Name', 'relu1')
@@ -29,15 +29,18 @@ function model=Train_Whole(M,dim,input,output)
 % ];
 
 layers = [
-    sequenceInputLayer(2*(M+1), 'Name', 'input')  % 输入形状 [8, N]
-    gruLayer(128, 'OutputMode', 'sequence', 'Name', 'gru1')
+    sequenceInputLayer(2*(M+1), 'Name', 'input')  % 输入形状 [2*(M+1), N]
+    gruLayer(64, 'OutputMode', 'sequence', 'Name', 'gru1')
+    gruLayer(64, 'OutputMode', 'sequence', 'Name', 'gru2')
     tanhLayer("Name", "tanh1")
-    fullyConnectedLayer(2, 'Name', 'fc')
+    fullyConnectedLayer(16, 'Name', 'fc1')
+    tanhLayer("Name", "tanh2")
+    fullyConnectedLayer(2, 'Name', 'fc2')
     regressionLayer('Name', 'output')
 ];
 
 %% 划分训练集与验证集（根据原数据量调整）
-numTrain = 6000; % 训练样本数
+numTrain = 5500; % 训练样本数
 XTrain = model_input(:, 1:numTrain);
 YTrain = model_output(:, 1:numTrain);
 XVal = model_input(:, numTrain+1:end);
@@ -48,11 +51,11 @@ options = trainingOptions('adam', ...% 'SquaredGradientDecayFactor', 0.9, ...
     'InitialLearnRate', 0.003, ...  % 通常比Adam稍小
     'LearnRateSchedule', 'piecewise', ...
     'LearnRateDropFactor', 0.5, ...
-    'LearnRateDropPeriod', 50, ...
+    'LearnRateDropPeriod', 500, ...
     'MaxEpochs', 4000, ...
     'ValidationData', {XVal, YVal}, ...
-    'ValidationFrequency', 20, ...
-    'ValidationPatience', 4, ...
+    'ValidationFrequency', 50, ...
+    'ValidationPatience', 8, ...
     'MiniBatchSize', 512, ...
     'GradientThreshold', 1, ...
     'Shuffle', 'never', ... % 若数据为时序需关闭Shuffle
