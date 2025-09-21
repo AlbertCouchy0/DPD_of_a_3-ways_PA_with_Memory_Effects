@@ -2,7 +2,7 @@
 
 This project explores the design and optimization of Digital Pre-Distortion (DPD) models for a 3-way Power Amplifier (PA) with memory effects using various neural network architectures and optimization algorithms.
 
-## 🧠 Models Evaluated
+## Models Evaluated
 - **Fully Connected Network (FCN)**
 - **LSTM**, **Bi-LSTM**, **GRU**
 - **CNN-LSTM**, **Multi-layer FCN**
@@ -11,22 +11,22 @@ This project explores the design and optimization of Digital Pre-Distortion (DPD
 - **Time Delay Network**
 - **Volterra Series**
 
-## ⚙️ Optimization Algorithms
+## Optimization Algorithms
 - Adam, SGDM, RMSProp
 - Levenberg-Marquardt (trainlm)
 - Scaled Conjugate Gradient (trainscg)
 - Bayesian Regularization (trainbr)
 
-## 📊 Key Findings
+## Key Findings
 - **Multi-layer FCN** with Bayesian regularization achieved the best performance: **-49.75 dB NMSE** on the validation set.
 - Complex models (e.g., Bi-LSTM, Transformer) suffered from **overfitting** despite high fitting accuracy.
 - **Volterra models** underperformed compared to neural network approaches.
 
-## 🛠️ Tools
+## Tools
 - MATLAB (Deep Learning Toolbox, Neural Network Toolbox)
 - SystemVue for simulation and validation
 
-## 👥 Authors
+## Authors
 - Yuan Zhong
 - Yansen Jia
 
